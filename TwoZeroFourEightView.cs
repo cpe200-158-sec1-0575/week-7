@@ -80,7 +80,7 @@ namespace twozerofoureight
 
         private void UpdateLabelScore()
         {
-            lblScore.Text = Convert.ToString(TwoZeroFourEightModel.Score);
+            lblScore.Text = Convert.ToString(((TwoZeroFourEightModel)model).Score);
         }
 
         private void btnLeft_Click(object sender, EventArgs e)
